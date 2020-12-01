@@ -1,5 +1,5 @@
 function [R, EE, comp, power] = ARFA_SC(H,Nr,Nt,nbar,L,K,q,rho,beta,N)
-
+% SC-HBF scheme
 comp = 1;
 
 N_vec_conv = N*ones(L,1);
