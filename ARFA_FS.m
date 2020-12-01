@@ -1,5 +1,5 @@
 function [R, EE, comp, power] = ARFA_FS(H,Nr,Nt,nbar,L,K,q,rho,N)
-
+% FS-aided C-ARFA scheme
 N_UB = N;
 N_vec = nbar*ones(L,1);
 N_vec_best = N_vec;
