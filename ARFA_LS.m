@@ -1,5 +1,5 @@
 function [R, EE, comp, power] = ARFA_LS(H,Nr,Nt,nbar,L,K,q,rho,beta,N)
-
+% PL-based SC-ARFA scheme
 comp = 1;
 
 N_vec = zeros(L,1);
