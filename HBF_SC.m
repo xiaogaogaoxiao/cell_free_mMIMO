@@ -1,5 +1,5 @@
 function [F, eig_tab] = HBF_SC(H,Nr,Nt,N_vec,nbar,L,K,q)
-
+% SC-HBF scheme
 F = zeros(L*Nr,L*nbar);
 I = eye(K);
 Q = I;
