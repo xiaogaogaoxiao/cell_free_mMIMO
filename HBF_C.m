@@ -1,4 +1,5 @@
 function [F, R_vec, sigma_max] = HBF_C(H,Nr,Nt,N_vec,nbar,L,K,q,rho)
+% C-HBF scheme
 sigma_max = 0;
 F = zeros(L*Nr,L*nbar);
 I = eye(K*Nt);
