@@ -1,5 +1,5 @@
 function [R, EE, comp, power] = ARFA_TS(H,Nr,Nt,nbar,L,K,q,rho,n_iter,count_max,N)
-
+% TS-aided C-ARFA scheme
 comp = 1; count  = 0;
 
 % N = min(L*nbar-(L-1), N);
